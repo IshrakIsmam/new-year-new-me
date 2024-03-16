@@ -1,0 +1,50 @@
+ *{
+    padding: 0;
+    margin: 0;
+   
+} 
+
+header{
+    margin: 0;
+    /* width: 100%; */
+    position: relative;
+}
+
+header img{
+    width:100%;
+}
+
+header .desc{
+    /* color: #fff; */
+    text-align: right;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    transition: all;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(0%, -50%);
+}
+
+.desc-p{
+    color:rgb(73, 71, 71);
+    font-size: 12px;
+}
+
+
+.desc h1{
+    font-size: 60px;
+
+}
+
+
+.defoult-btn{
+    background-color: #F15B22;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
