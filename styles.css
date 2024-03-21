@@ -1,138 +1,145 @@
- *{
-    padding: 0;
-    margin: 0;
-   
-} 
+ * {
+     padding: 0;
+     margin: 0;
 
-section{
-    width: 80%;
-    margin: auto;
-}
+ }
 
-section .sec-title{
-    font-size: 40px;
-    font-weight: 700;
-}
+ section {
+     width: 80%;
+     margin: auto;
+ }
 
-header{
-    margin: 0;
-    /* width: 100%; */
-    position: relative;
-}
+ section .sec-title {
+     font-size: 40px;
+     font-weight: 700;
+ }
 
-header img{
-    width:100%;
-}
+ header {
+     margin: 0;
+     /* width: 100%; */
+     position: relative;
+ }
 
-header .desc{
-    /* color: #fff; */
-    text-align: right;
-    position: absolute;
-    top: 40%;
-    right: 10%;
-    transition: all;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transform: translate(0%, -50%);
-}
+ header img {
+     width: 100%;
+ }
 
-.desc-p{
-    color:rgb(73, 71, 71);
-    font-size: 12px;
-}
+ header .desc {
+     /* color: #fff; */
+     text-align: right;
+     position: absolute;
+     top: 40%;
+     right: 10%;
+     transition: all;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     transform: translate(0%, -50%);
+ }
 
-
-.desc h1{
-    font-size: 60px;
-
-}
+ .desc-p {
+     color: rgb(73, 71, 71);
+     font-size: 12px;
+ }
 
 
-.defoult-btn{
-    background-color: #F15B22;
-    color: #FFFFFF;
-    margin-top: 20px;
-    border: none;
-    padding: 10px;
-    border-radius: 8px;
-}
+ .desc h1 {
+     font-size: 60px;
 
-.donat-sec{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 80px;
-}
+ }
 
 
-.sec-plan{
-    text-align: center;
-    margin-bottom: 80px;
-    display: flex;
-    gap: 20px;
-}
+ .defoult-btn {
+     background-color: #F15B22;
+     color: #FFFFFF;
+     margin-top: 20px;
+     border: none;
+     padding: 10px;
+     border-radius: 8px;
+ }
+
+ .donat-sec {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 80px;
+ }
 
 
-.skill-contrinar{   
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    width: 1141px;
-    height: 299.96;
-}
-.skill{
-    text-align: center;
-    display: flex;
-    gap: 11px;
-    flex-direction: column;
-    margin-bottom: 80px;
-}
-
-.skill p{
-    color: gray;
-}
-
-.skill img{
-    width: 93px;
-    margin: auto;}
+ .sec-plan {
+     text-align: center;
+     margin-bottom: 80px;
+     display: flex;
+     gap: 20px;
+ }
 
 
-.resume-title{
-    text-align: center;
-    margin-bottom: 50px;
-}
+ .skill-contrinar {
+     display: flex;
+     justify-content: center;
+     gap: 80px;
+     width: 1141px;
+     height: 299.96;
+ }
+
+ .skill {
+     text-align: center;
+     display: flex;
+     gap: 11px;
+     flex-direction: column;
+     margin-bottom: 80px;
+ }
+
+ .skill p {
+     color: gray;
+ }
+
+ .skill img {
+     width: 93px;
+     margin: auto;
+ }
 
 
+ .resume-title {
+     text-align: center;
+     margin-bottom: 50px;
+ }
 
 
+ .sub-banner {
+     position: relative;
+ }
 
 
+ .sub-call {
+     position: absolute;
+     left: 0;
+     top: 0;
+     padding: 50px;
+     background-image: url(./new-year-new-me/images/colar/gradient2.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%;
+     color: #FFFFFF;
+ }
 
+ .sub-call h1 {
+     font-size: 40px;
+ }
 
+ .sub-call button {
+     margin-top: 20px;
+     border: #FFFFFF 2px solid;
+     color: #F15B22;
+     background-color: #FFFFFF;
+     font-size: 20px;
+     font-weight: 600;
+     border-radius: 4px;
+     padding: 14px 18px;
+ }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .sub-call button:hover {
+     border: #FFFFFF 2px solid;
+     color: white;
+     background-color: #F15B22;
+     transition: all;
+     transition-duration: 500ms;
+ }
